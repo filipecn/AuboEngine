@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<game name="NW" version="0.1">
+	<gamestates>
+		<gamestate type="Level" name="Level-2" version="0.1">
+			<camera _2D="true">
+				<look>
+					<x>0.0</x>
+					<y>0.0</y>
+				</look>
+				<zoom>1.0</zoom>
+				<radius>20.0</radius>
+			</camera>
+			<world>
+				<gravity>
+					<x>0.0</x>
+					<y>-10.0</y>
+				</gravity>
+			</world>
+			<actors>
+				<actor type="1" name="Actor-1">
+				</actor>
+			</actors>
+			<sceneObjects>
+				<sceneObject type="1" name="box">
+				</sceneObject>
+			</sceneObjects>
+			<scenery>
+				<sceneryObject type="1" name="ground">
+					<position>
+						<x>0.0</x>
+						<y>-10.0</y>
+					</position>
+				</sceneryObject>
+			</scenery>
+		</gamestate>
+		<gamestate type="Level" name="Level-1" path="Levels/1"></gamestate>
+	</gamestates>
+</game>
