@@ -1,7 +1,7 @@
 # AuboEngine
 Game Engine based on Box 2D
 
-Everything here works with Finit State Machines, everything.
+Everything here works with Finite State Machines, everything.
 
 Levels, Characters, Objectives...
 
